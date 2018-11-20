@@ -30,7 +30,7 @@ wbr {
     margin: 0;
     opacity: 1;
     outline: 0;
-    overflow: hidden;
+    overflow: visible;
     padding: 0;
     position: relative;
     text-decoration: none;
