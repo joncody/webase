@@ -1,4 +1,3 @@
-(function (global) {
-    "use strict";
+"use strict";
 
-}(window || this));
+const global = globalThis || window || this;
