@@ -126,6 +126,7 @@ svg {
     display: block;
     max-width: 100%;
     height: auto;
+    width: auto;
 }
 audio {
     display: inline-block;
