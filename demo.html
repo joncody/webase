@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="./static/css/screen.css">
+        <title>HTML5 Alphabetical Element Test</title>
+        <style>
+            /* 
+               Demo Wrapper Styles ONLY 
+               (These do not affect the elements, just the layout of this demo page)
+            */
+            body { padding: 20px; font-family: monospace; }
+            .letter-section { border-bottom: 2px solid #ccc; margin-bottom: 40px; padding-bottom: 20px; }
+            .letter-title { font-size: 3rem; font-weight: bold; margin-bottom: 20px; color: #555; }
+            .element-test { margin-bottom: 30px; border: 1px dashed #eee; padding: 10px; }
+            .tag-name { 
+                display: block; 
+                background: #eee; 
+                color: #333; 
+                padding: 2px 5px; 
+                margin-bottom: 10px; 
+                font-weight: bold; 
+                font-size: 1.2rem;
+                width: fit-content;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- A -->
+        <div class="letter-section">
+            <h2 class="letter-title">A</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;a&gt;</span>
+                <a href="#">Anchor Link</a>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;abbr&gt;</span>
+                <abbr title="Abbreviation">Abbr</abbr>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;address&gt;</span>
+                <address>Address Block<br>123 Street, City</address>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;area&gt; (inside map)</span>
+                <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="#">
+                </map>
+                <small>(Area is invisible without an image map)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;article&gt;</span>
+                <article>Article Content</article>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;aside&gt;</span>
+                <aside>Aside Content</aside>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;audio&gt;</span>
+                <audio controls src="#"></audio>
+            </div>
+        </div>
+
+        <!-- B -->
+        <div class="letter-section">
+            <h2 class="letter-title">B</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;b&gt;</span>
+                <b>Bold Text</b>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;base&gt;</span>
+                <small>(Head element - not visible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;bdi&gt;</span>
+                <bdi>Bi-directional Isolation</bdi>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;bdo&gt;</span>
+                <bdo dir="rtl">Bi-directional Override (RTL)</bdo>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;blockquote&gt;</span>
+                <blockquote>Blockquote text</blockquote>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;body&gt;</span>
+                <small>(You are looking at it)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;br&gt;</span>
+                Line 1<br>Line 2 (after br)
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;button&gt;</span>
+                <button>Button</button>
+            </div>
+        </div>
+
+        <!-- C -->
+        <div class="letter-section">
+            <h2 class="letter-title">C</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;canvas&gt;</span>
+                <canvas style="border:1px solid #000" width="100" height="50"></canvas>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;caption&gt;</span>
+                <table><caption>Table Caption</caption></table>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;cite&gt;</span>
+                <cite>Citation</cite>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;code&gt;</span>
+                <code>Code Block</code>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;col&gt; / &lt;colgroup&gt;</span>
+                <table>
+                    <colgroup>
+                        <col style="background-color: #eee">
+                        <col>
+                    </colgroup>
+                    <tr><td>Col 1</td><td>Col 2</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- D -->
+        <div class="letter-section">
+            <h2 class="letter-title">D</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;data&gt;</span>
+                <data value="42">Data 42</data>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;datalist&gt;</span>
+                <input list="browsers" placeholder="Click for datalist">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                </datalist>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;dd&gt;</span>
+                <dl><dd>Definition Description (dd)</dd></dl>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;del&gt;</span>
+                <del>Deleted Text</del>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;details&gt;</span>
+                <details><summary>Details Summary</summary>Details Content</details>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;dfn&gt;</span>
+                <dfn>Definition Term</dfn>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;dialog&gt;</span>
+                <dialog open>Dialog (Open)</dialog>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;div&gt;</span>
+                <div>Div Content</div>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;dl&gt;</span>
+                <dl>
+                    <dt>Term</dt>
+                    <dd>Description</dd>
+                </dl>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;dt&gt;</span>
+                <dl><dt>Definition Term (dt)</dt></dl>
+            </div>
+        </div>
+
+        <!-- E -->
+        <div class="letter-section">
+            <h2 class="letter-title">E</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;em&gt;</span>
+                <em>Emphasized Text</em>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;embed&gt;</span>
+                <embed src="" type="text/html" style="background:#eee; width: 50px; height: 50px;">
+            </div>
+        </div>
+
+        <!-- F -->
+        <div class="letter-section">
+            <h2 class="letter-title">F</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;fieldset&gt;</span>
+                <fieldset>Fieldset Content</fieldset>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;figcaption&gt;</span>
+                <figure><figcaption>Figcaption</figcaption></figure>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;figure&gt;</span>
+                <figure>Figure</figure>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;footer&gt;</span>
+                <footer>Footer Content</footer>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;form&gt;</span>
+                <form>Form Content</form>
+            </div>
+        </div>
+
+        <!-- H -->
+        <div class="letter-section">
+            <h2 class="letter-title">H</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;h1&gt; to &lt;h6&gt;</span>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;head&gt;</span>
+                <small>(Head element - not visible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;header&gt;</span>
+                <header>Header Content</header>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;hgroup&gt;</span>
+                <hgroup>
+                    <h1>H1 in Group</h1>
+                    <p>Subtitle</p>
+                </hgroup>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;hr&gt;</span>
+                Before HR <hr> After HR
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;html&gt;</span>
+                <small>(Root element)</small>
+            </div>
+        </div>
+
+        <!-- I -->
+        <div class="letter-section">
+            <h2 class="letter-title">I</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;i&gt;</span>
+                <i>Italic Text</i>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;iframe&gt;</span>
+                <iframe src="about:blank" title="iframe"></iframe>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;img&gt;</span>
+                <img src="https://via.placeholder.com/50" alt="Img Alt">
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;input&gt;</span>
+                <input type="text" placeholder="Text Input">
+                <input type="checkbox">
+                <input type="radio">
+                <input type="date">
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;ins&gt;</span>
+                <ins>Inserted Text</ins>
+            </div>
+        </div>
+
+        <!-- K -->
+        <div class="letter-section">
+            <h2 class="letter-title">K</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;kbd&gt;</span>
+                <kbd>Ctrl</kbd> + <kbd>C</kbd>
+            </div>
+        </div>
+
+        <!-- L -->
+        <div class="letter-section">
+            <h2 class="letter-title">L</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;label&gt;</span>
+                <label>Label</label>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;legend&gt;</span>
+                <fieldset><legend>Legend</legend></fieldset>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;li&gt;</span>
+                <ul><li>List Item (li)</li></ul>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;link&gt;</span>
+                <small>(Head element - not visible)</small>
+            </div>
+        </div>
+
+        <!-- M -->
+        <div class="letter-section">
+            <h2 class="letter-title">M</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;main&gt;</span>
+                <main>Main Content</main>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;map&gt;</span>
+                <small>(See Area)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;mark&gt;</span>
+                <mark>Marked Text</mark>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;math&gt;</span>
+                <math><mi>x</mi><mo>+</mo><mi>y</mi></math>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;menu&gt;</span>
+                <menu><li>Menu Item</li></menu>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;meta&gt;</span>
+                <small>(Head element)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;meter&gt;</span>
+                <meter value="0.6">60%</meter>
+            </div>
+        </div>
+
+        <!-- N -->
+        <div class="letter-section">
+            <h2 class="letter-title">N</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;nav&gt;</span>
+                <nav>Nav Content</nav>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;noscript&gt;</span>
+                <noscript>Noscript Content (Visible if JS disabled)</noscript>
+            </div>
+        </div>
+
+        <!-- O -->
+        <div class="letter-section">
+            <h2 class="letter-title">O</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;object&gt;</span>
+                <object data="" type="application/pdf" style="background:#ddd; width:50px; height:50px;"></object>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;ol&gt;</span>
+                <ol><li>Ordered List Item</li></ol>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;optgroup&gt;</span>
+                <select><optgroup label="Optgroup"><option>Option</option></optgroup></select>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;option&gt;</span>
+                <select><option>Option</option></select>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;output&gt;</span>
+                <output>Output Value</output>
+            </div>
+        </div>
+
+        <!-- P -->
+        <div class="letter-section">
+            <h2 class="letter-title">P</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;p&gt;</span>
+                <p>Paragraph text.</p>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;param&gt;</span>
+                <object><param name="autoplay" value="true"></object>
+                <small>(Param is invisible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;picture&gt;</span>
+                <picture><img src="https://via.placeholder.com/50" alt="Picture"></picture>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;pre&gt;</span>
+                <pre>Preformatted
+      Text</pre>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;progress&gt;</span>
+                <progress value="0.5">50%</progress>
+            </div>
+        </div>
+
+        <!-- Q -->
+        <div class="letter-section">
+            <h2 class="letter-title">Q</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;q&gt;</span>
+                <q>Inline Quote</q>
+            </div>
+        </div>
+
+        <!-- R -->
+        <div class="letter-section">
+            <h2 class="letter-title">R</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;rp&gt; / &lt;rt&gt; / &lt;ruby&gt;</span>
+                <ruby>
+                    漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                    字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+                </ruby>
+            </div>
+        </div>
+
+        <!-- S -->
+        <div class="letter-section">
+            <h2 class="letter-title">S</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;s&gt;</span>
+                <s>Strikethrough</s>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;samp&gt;</span>
+                <samp>Sample Output</samp>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;script&gt;</span>
+                <script>console.log("Script loaded");</script>
+                <small>(Script is invisible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;search&gt;</span>
+                <search>Search Content</search>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;section&gt;</span>
+                <section>Section Content</section>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;select&gt;</span>
+                <select><option>Select Option</option></select>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;slot&gt;</span>
+                <small>(Slot - requires Shadow DOM)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;small&gt;</span>
+                <small>Small Text</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;source&gt;</span>
+                <audio><source src="#"></audio>
+                <small>(Source is invisible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;span&gt;</span>
+                <span>Span Text</span>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;strong&gt;</span>
+                <strong>Strong Text</strong>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;style&gt;</span>
+                <small>(Style is invisible)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;sub&gt;</span>
+                Text<sub>Sub</sub>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;summary&gt;</span>
+                <details><summary>Summary</summary></details>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;sup&gt;</span>
+                Text<sup>Sup</sup>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;svg&gt;</span>
+                <svg width="20" height="20"><circle cx="10" cy="10" r="10" fill="red"/></svg>
+            </div>
+        </div>
+
+        <!-- T -->
+        <div class="letter-section">
+            <h2 class="letter-title">T</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;table&gt; / &lt;tbody&gt; / &lt;td&gt; / &lt;tfoot&gt; / &lt;th&gt; / &lt;thead&gt; / &lt;tr&gt;</span>
+                <table>
+                    <thead><tr><th>Head Cell</th></tr></thead>
+                    <tbody><tr><td>Body Cell</td></tr></tbody>
+                    <tfoot><tr><td>Foot Cell</td></tr></tfoot>
+                </table>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;template&gt;</span>
+                <template>Template Content (Hidden)</template>
+                <small>(Template is hidden by default)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;textarea&gt;</span>
+                <textarea placeholder="Textarea"></textarea>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;time&gt;</span>
+                <time>12:00</time>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;title&gt;</span>
+                <small>(Head element)</small>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;track&gt;</span>
+                <video><track kind="subtitles"></video>
+                <small>(Track is invisible)</small>
+            </div>
+        </div>
+
+        <!-- U -->
+        <div class="letter-section">
+            <h2 class="letter-title">U</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;u&gt;</span>
+                <u>Underline</u>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;ul&gt;</span>
+                <ul><li>Unordered List Item</li></ul>
+            </div>
+        </div>
+
+        <!-- V -->
+        <div class="letter-section">
+            <h2 class="letter-title">V</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;var&gt;</span>
+                <var>Variable</var>
+            </div>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;video&gt;</span>
+                <video controls width="100"></video>
+            </div>
+        </div>
+
+        <!-- W -->
+        <div class="letter-section">
+            <h2 class="letter-title">W</h2>
+
+            <div class="element-test">
+                <span class="tag-name">&lt;wbr&gt;</span>
+                Word<wbr>Break
+            </div>
+        </div>
+
+        <script type="module" src="./static/js/index.js"></script>
+    </body>
+</html>
