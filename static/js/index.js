@@ -1,3 +1,11 @@
 "use strict";
 
-const global = typeof globalThis !== "undefined" ? globalThis : (typeof window !== "undefined" ? window : this);
+const global = (
+    globalThis !== "undefined"
+    ? globalThis
+    : (
+        window !== "undefined"
+        ? window
+        : this
+    )
+);
