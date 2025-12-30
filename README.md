@@ -1,1 +1,3 @@
-# Web Core - Static, fundamental website files.
+# Web Core
+
+Static, fundamental website files.
